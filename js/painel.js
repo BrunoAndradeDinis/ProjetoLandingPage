@@ -37,11 +37,11 @@
             return;
         }
         if (imagemAtual === totalDeImagens - 1){
-            setaAvancar.classList.remove('mostrar');
+            setAvancar.classList.remove('mostrar');
         }
 
         if (imagemAtual === totalDeImagens - 1){
-            setaAvancar.classList.remove('mostrar');
+            setAvancar.classList.remove('mostrar');
         }
         
         /* ao clicar no avançar i++ */
@@ -68,7 +68,7 @@
         }
 
         if(imagemAtual === 1){
-            setaVoltar.classList.remove('mostrar');
+            setVoltar.classList.remove('mostrar');
         }
 
         imagemAtual--;
@@ -78,6 +78,6 @@
         });
         imagensPainel[imagemAtual].classList.add('mostrar');
         while(imagemAtual == 2){
-            setaAvancar.style.opacity='0.5'
+            setAvancar.style.opacity='0.5'
         }
     })
