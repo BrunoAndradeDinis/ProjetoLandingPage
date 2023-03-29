@@ -1,4 +1,4 @@
-    /* quando cliacar na seta para avançar temos que esconder
+       /* quando clicar na seta para avançar temos que esconder
     todas as imagens e mostrar a próxima imagem
 
     A imagem atual começa em 0
